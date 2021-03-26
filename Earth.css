@@ -1,0 +1,41 @@
+/* Created by NemoNet aka The Young Programmer */
+
+body{
+  margin:0px;
+  padding:0px;
+background-image:url("https://i.postimg.cc/rsbk9hwV/astronomy-1867616-1920.jpg");
+background-size:360px 600px;
+animation:bg 20s infinite linear;
+}
+@keyframes bg {
+  50%{
+    background-size:500px 700px;
+  }
+}
+.Earth{
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  box-shadow:30px 4px 20px black inset, 0px 0px 5px white;
+  background-image:url("https://i.postimg.cc/Qx9sMrfH/physical-world-map-1.jpg");
+  background-size:500px 300px;
+  position:absolute;
+  top:100px;
+  left:30px;
+  animation:earth 10s infinite linear;
+}
+@keyframes earth{
+  100%{background-position:500px}
+} 
+a{
+  font-size:30px;
+  position:absolute;
+  bottom:50px;
+  text-align:center;
+  width:360px;
+  text-decoration:none;
+  background:#D8E6E1C7;
+  color:black ;
+  border-radius:10px;
+  font-family: 'Open Sans', sans-serif;
+}
